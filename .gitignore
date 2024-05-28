@@ -1,0 +1,45 @@
+#Ignore thumbnails created by Windows
+Thumbs.db
+
+*/Logs/*
+
+#Ignore files built by Visual Studio
+.vs
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
+
+#Ignore JetBrains Rider files
+.idea
+.sln.iml
+
+
+# Build results
+[Dd]ebug
+[Dd]ebugPublic
+[Rr]elease
+[Rr]eleases
+x64
+x86
+bld
+[Bb]in
+[Oo]bj
+[Ll]og
+[Oo]ut
+
+appsettings.Development.json
